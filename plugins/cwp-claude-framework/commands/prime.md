@@ -15,5 +15,6 @@ git ls-files
 - README*
 - CLAUDE.md
 - package.json
-- ai_docs/rules.md (if it exists)
+- docs/rules.md (if it exists)
+- docs/tech-stack.md (if it exists)
 - "$ARGUMENTS" if this is a file of a list of files

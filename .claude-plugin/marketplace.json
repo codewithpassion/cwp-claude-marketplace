@@ -17,6 +17,15 @@
       "author": {
         "name": "Dominik Fretz"
       }
+    },
+    {
+      "name": "cwp-how-i-vibe",
+      "source": "./plugins/cwp-how-i-vibe",
+      "description": "Dom's step by step framework for agentic engineering",
+      "version": "0.1.0",
+      "author": {
+        "name": "Dominik Fretz"
+      }
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "name": "cwp-claude-framework",
   "version": "0.1.0",
-  "description": "Personal toolkit of reusable Claude commands and utilities",
+  "description": "Dom's Personal toolkit of reusable Claude commands and utilities",
   "author": {
-    "name": "CWP",
-    "email": ""
+    "name": "Dominik Fretz",
+    "email": "dominik@harbouredge.ai"
   }
 }
