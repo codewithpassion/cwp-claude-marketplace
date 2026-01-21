@@ -1,0 +1,12 @@
+{
+  "name": "cwp-claude-marketplace",
+  "owner": {
+    "name": "Dominik Fretz",
+    "email": "dominik@harbouredge.ai"
+  },
+  "metadata": {
+    "description": "Claude Code plugin marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": []
+}
