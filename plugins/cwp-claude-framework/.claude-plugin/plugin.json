@@ -1,0 +1,9 @@
+{
+  "name": "cwp-claude-framework",
+  "version": "0.1.0",
+  "description": "Personal toolkit of reusable Claude commands and utilities",
+  "author": {
+    "name": "CWP",
+    "email": ""
+  }
+}
