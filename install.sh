@@ -73,7 +73,7 @@ if [[ -d "$CC_MIRROR_DIR" ]]; then
         echo ""
 
         echo -e "${YELLOW}Which command do you want to use? [1-$((i-1))]${NC} "
-        read -r choice
+        read -r choice < /dev/tty
 
         if [[ "$choice" =~ ^[0-9]+$ ]]; then
             if [[ "$choice" -eq 1 ]]; then
@@ -128,7 +128,7 @@ echo ""
 
 # Ask for confirmation
 echo -e "${YELLOW}Do you want to proceed? [y/N]${NC} "
-read -r response
+read -r response < /dev/tty
 
 if [[ ! "$response" =~ ^[Yy]$ ]]; then
     echo ""
