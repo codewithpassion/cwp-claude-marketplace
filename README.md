@@ -74,13 +74,13 @@ Run these commands from your terminal:
 
 ```bash
 # Add the marketplace
-claude plugin marketplace add codewithpassion/cwp-claude-marketplace
+claude plugin marketplace add codewithpassion/plugin-marketplace
 
 # Install individual plugins
-claude plugin install cwp-claude-framework@cwp-claude-marketplace
-claude plugin install cwp-how-i-vibe@cwp-claude-marketplace
-claude plugin install mcp-ui-expert@cwp-claude-marketplace
-claude plugin install claude-forge-agents@cwp-claude-marketplace
+claude plugin install cwp-claude-framework@plugin-marketplace
+claude plugin install cwp-how-i-vibe@plugin-marketplace
+claude plugin install mcp-ui-expert@plugin-marketplace
+claude plugin install claude-forge-agents@plugin-marketplace
 ```
 
 ### From Within Claude Code
