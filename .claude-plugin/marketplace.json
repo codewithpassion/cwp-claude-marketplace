@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Claude Code plugin marketplace",
-    "version": "1.0.2"
+    "version": "1.0.4"
   },
   "plugins": [
     {
@@ -32,6 +32,15 @@
       "source": "./plugins/cwp-how-i-vibe",
       "description": "Dom's step by step framework for agentic engineering",
       "version": "0.1.0",
+      "author": {
+        "name": "Dominik Fretz"
+      }
+    },
+    {
+      "name": "cwp-session-replay",
+      "source": "./plugins/session-replay",
+      "description": "Generate a self-contained HTML replay viewer of this project's Claude Code sessions — an animated timeline of prompts, tool calls, thinking, results, skill usage, and token usage.",
+      "version": "0.2.0",
       "author": {
         "name": "Dominik Fretz"
       }

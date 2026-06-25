@@ -1,0 +1,9 @@
+{
+  "name": "cwp-session-replay",
+  "version": "0.2.0",
+  "description": "Generate a self-contained HTML replay viewer of this project's Claude Code sessions — an animated timeline of prompts, tool calls, thinking, results, skill usage, and token usage.",
+  "author": {
+    "name": "Dominik Fretz",
+    "email": "dominik@harbouredge.ai"
+  }
+}
