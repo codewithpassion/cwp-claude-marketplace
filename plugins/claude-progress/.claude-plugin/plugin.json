@@ -1,20 +1,8 @@
 {
   "name": "cwp-claude-progress",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Dominik Fretz"
   },
-  "description": "Auto-updates PROGRESS.md at the end of each session, plus /progress, /remember, and /retrospective skills. Requires a PROGRESS.md file in the root of the project.",
-   "hooks": {
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "prompt",
-            "prompt": "Check if a PROGRESS.md file exists in the project root. If it does NOT exist, do nothing.\n\nIf it DOES exist, and you made meaningful code changes this session (not just Q&A or exploration), then run the 'progress' skill to update the PROGRESS.md file with a new entry summarizing your work this session. If you did not make meaningful code changes, do nothing.\n\nIf you are unsure whether you made meaningful code changes, err on the side of caution and do not update the PROGRESS.md file.\n\nIf you do update the PROGRESS.md file, commit the change with a message like 'docs: update progress log for cycle N'."
-          }
-        ]
-      }
-    ]
-  }
+  "description": "Auto-updates PROGRESS.md at the end of each session, plus /progress, /remember, and /retrospective skills. Requires a PROGRESS.md file in the root of the project."
 }
