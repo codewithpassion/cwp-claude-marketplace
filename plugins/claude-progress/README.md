@@ -1,8 +1,8 @@
 # cwp-claude-progress
 
-Keeps a `PROGRESS.md` work log up to date automatically, plus skills for capturing and distilling what you learn across sessions.
+Keeps a `PROGRESS.md` work log up to date via the `/progress` skill, plus skills for capturing and distilling what you learn across sessions.
 
-> **Prerequisite:** A `PROGRESS.md` file must exist in the project root. Without it the Stop hook does nothing — create an empty `PROGRESS.md` to opt in.
+> **Prerequisite:** A `PROGRESS.md` file must exist in the project root. Create an empty `PROGRESS.md` to start a work log.
 
 ## Installation
 
@@ -15,9 +15,6 @@ claude --plugin-dir /path/to/claude-progress
 ```
 
 ## What it does
-
-### Automatic progress log (Stop hook)
-At the end of each session, if a `PROGRESS.md` exists and you made meaningful code changes, the plugin appends a brief timestamped entry (date, what changed, suggested next steps). Q&A-only or exploration sessions are skipped, and existing entries are never rewritten.
 
 ### Skills
 
@@ -32,7 +29,7 @@ At the end of each session, if a `PROGRESS.md` exists and you made meaningful co
 ```
 claude-progress/
 ├── .claude-plugin/
-│   └── plugin.json              # Manifest + Stop hook
+│   └── plugin.json              # Manifest
 ├── skills/
 │   ├── progress/SKILL.md
 │   ├── remember/SKILL.md

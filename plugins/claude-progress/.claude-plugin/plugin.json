@@ -4,5 +4,5 @@
   "author": {
     "name": "Dominik Fretz"
   },
-  "description": "Auto-updates PROGRESS.md at the end of each session, plus /progress, /remember, and /retrospective skills. Requires a PROGRESS.md file in the root of the project."
+  "description": "Update PROGRESS.md on demand via the /progress skill, plus /remember and /retrospective skills. Requires a PROGRESS.md file in the root of the project."
 }
